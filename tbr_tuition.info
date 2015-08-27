@@ -1,0 +1,11 @@
+name = "TBR Tuition Data"
+description = "TBR Institution Mandatory and Maintenance Fee Data"
+dependencies[] = views
+package = "TBR"
+core = 7.x
+version = "7.x-1.0"
+project = "tbr_tuition"
+
+files[] = tbr_tuition.module
+files[] = tbr_tuition.views.inc
+files[] = handlers/tbr_tuition_handler_numeric.inc
